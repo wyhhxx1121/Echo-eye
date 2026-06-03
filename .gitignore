@@ -1,0 +1,33 @@
+# Local data and generated artifacts
+data/
+runs/
+weights/
+checkpoints*/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Manuscripts and office-generated files
+*.doc
+*.docx
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
